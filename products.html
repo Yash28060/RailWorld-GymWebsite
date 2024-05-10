@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes</title>
+    <link rel="stylesheet" href="style/navFoot.css" />
+    <link rel="stylesheet" href="style/product.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li>
+            <button class="join btn-open-popup" onclick="togglePopup()">
+              Join us
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+    <div class="product pg1">
+      <div class="class-container"> 
+        <img class="bg1" src="images/productImg/Rectangle 54product.png" alt="" />
+          <h1 class="main-h1">Nutrient & Suppliments</h1>
+        <div class="class-img">
+          <div class="firstImg">
+            <img src="images/productImg/gym3 2.png" class="img1" alt="1" />
+            <button>Whey Protein</button>
+          </div>
+          <div class="secondImg">
+            <img src="images/productImg/gym2 1.png" class="img2" alt="2" />
+            <button>Multivitamins</button>
+          </div>
+          <div class="thirdImg">
+            <img src="images/productImg/gym4 1.png" class="img3" alt="3" />
+            <button>Pre Workouts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product pg2">
+      <div class="class-container2">
+        <h1 class="main-h2">Weights & Machine</h1>
+        <div class="class-img2">
+          <div class="FImg">
+            <div class="imgContainer">
+              <img src="images/productImg/Rectangle 70.png " class="img1" alt="1" />
+            </div>
+            <button>John Smith</button>
+          </div>
+          <div class="SImg">
+            <div class="imgContainer">
+              <img src="images/productImg/Rectangle 72.png" class="img2" alt="2" />
+            </div>
+            <button>Ania Louis</button>
+          </div>
+          <div class="TImg">
+            <div class="imgContainer">
+              <img src="images/productImg/Rectangle 71.png" class="img3" alt="3" />
+            </div>
+            <button>Phil Health</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product pg3">
+        <div class="class-container"> 
+          <img class="bg1" src="images/productImg/Rectangle 59@2x.png" alt="" />
+            <h1 class="main-h1">Apparel & Merchandise</h1>
+          <div class="class-img">
+            <div class="firstImg">
+              <img src="images/productImg/Rectangle 73.png" class="img1" alt="1" />
+              <button>Power Excello</button>
+            </div>
+            <div class="secondImg">
+              <img src="images/productImg/Rectangle 74.png" class="img2" alt="2" />
+              <button>Mixed-Level Excello</button>
+            </div>
+            <div class="thirdImg">
+              <img src="images/productImg/Rectangle 76.png" class="img3" alt="3" />
+              <button>Beginner Excello</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-block b1">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+          <h3>
+            Prioritize Your Fitness Goals <br />
+            with our world class services
+          </h3>
+        </div>
+        <div class="footer-block b2">
+          <div class="company">
+            <h3>COMPANY</h3>
+            <p>About</p>
+            <p>Careers</p>
+            <p>Blogs</p>
+          </div>
+          <div class="contact">
+            <h3>CONTACT</h3>
+            <p>Help/FAQs</p>
+            <p>Press</p>
+            <p>Mobile</p>
+          </div>
+          <div class="more">
+            <h3>MORE</h3>
+            <p>Program</p>
+            <p>Plans</p>
+            <p>Method</p>
+          </div>
+        </div>
+        <div class="footer-block b3">
+          <h3>Popular Tags</h3>
+          <div class="popular-tags">
+            <p class="gy">Abs</p>
+            <p class="yl">Workout</p>
+            <p class="yl">Nutrition</p>
+            <p class="gy">Gym</p>
+            <p class="gy">Boxing</p>
+            <p class="yl">Trainers</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Fitness Club. All Rights Reserved</p>
+      </div>
+    </div>
+
+    <!-- Join form starts here -->
+    <div id="popupOverlay" class="overlay-container">
+      <div class="popup-box">
+        <h2>Join Form</h2>
+        <form class="form-container">
+          <label class="form-label" for="name"> Username: </label>
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Enter Your Username"
+            id="name"
+            name="name"
+            required
+          />
+
+          <label class="form-label" for="email">Email:</label>
+          <input
+            class="form-input"
+            type="email"
+            placeholder="Enter Your Email"
+            id="email"
+            name="email"
+            required
+          />
+          <label class="form-label" for="email">Mobile Number:</label>
+          <input
+            class="form-input"
+            type="number"
+            placeholder="Enter Your Mobile number of 10 digits"
+            id="number"
+            name="number"
+            required
+          />
+          <label class="form-label" for="duration">Duration:</label>
+          <div class="radio">
+            <div class="sub-opt1">
+              <input
+                class="form-input"
+                type="radio"
+                id="duartion"
+                name="monthly"
+                value="Monthly"
+              />
+              <p>Monthly</p>
+            </div>
+            <div class="sub-opt2">
+              <input
+                class="form-input"
+                type="radio"
+                id="duartion"
+                name="yearly"
+                value="Yearly"
+              />
+              <p>Yearly</p>
+            </div>
+          </div>
+          <label class="form-label" for="mode">Mode of Payment:</label>
+          <div class="radio">
+            <div class="sub-opt1">
+              <input
+                class="form-input"
+                type="radio"
+                id="cash"
+                name="cash"
+                value="Cash"
+              />
+              <p>Cash</p>
+            </div>
+            <div class="sub-opt2">
+              <input
+                class="form-input"
+                type="radio"
+                id="online"
+                name="online"
+                value="Online"
+              />
+              <p>Online</p>
+            </div>
+          </div>
+          <label class="form-label" for="training"
+            >Personal Training: <sup>*(free with yearly plan)</sup></label
+          >
+          <div class="radio">
+            <div class="sub-opt1">
+              <input
+                class="form-input"
+                type="radio"
+                id="required"
+                name="required"
+                value="Required"
+              />
+              <p>Required</p>
+            </div>
+            <div class="sub-opt2">
+              <input
+                class="form-input"
+                type="radio"
+                id="not-required"
+                name="not-required"
+                value="NOt Requried"
+              />
+              <p>Not Requried</p>
+            </div>
+          </div>
+          <div class="terms">
+            <input type="checkbox" name="terms" required />I accept all terms
+            and conditions provided in this form
+          </div>
+          <button class="btn-submit" type="submit">Submit</button>
+        </form>
+
+        <button class="btn-close-popup" onclick="togglePopup()">Close</button>
+      </div>
+    </div>
+    <script src="script/index.js"></script>
+  </body>
+</html>
+
+    
+</body>
+</html>
