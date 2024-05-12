@@ -138,16 +138,16 @@ body {
   } 
   .form-label { 
     margin-bottom: 10px; 
-    font-size: 16px; 
+    font-size: 14px; 
     color: #444; 
     text-align: left; 
   } 
   .form-input { 
-    padding: 10px; 
-    margin-bottom: 20px; 
+    padding: 8px; 
+    margin-bottom: 12px; 
     border: 2px solid #ccc; 
     border-radius: 8px; 
-    font-size: 16px; 
+    font-size: 14px; 
     width: 100%; 
     box-sizing: border-box; 
   } 
@@ -156,7 +156,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    padding: 20px;
   }
   .sub-opt1,.sub-opt2{
     display: flex;
@@ -177,7 +176,7 @@ body {
   }
   .btn-submit, 
   .btn-close-popup { 
-    padding: 12px 24px;
+    padding: 10px 24px;
     font-size: large; 
     border: none; 
     border-radius: 8px; 
@@ -188,7 +187,7 @@ body {
   background: linear-gradient(356deg, rgba(131,58,180,1) 0%, rgba(44,211,255,1) 88%);
     color: #fff; 
   } 
-  
+ 
   .btn-close-popup { 
     margin-top: 12px; 
     background-color: #e74c3c; 
@@ -268,12 +267,19 @@ body {
     padding: 10px;
     font-size: large;
     color: white;
+    transition: 0.3s;
+
   }
   .yl {
     background-color: var(--secondary-color);
     padding: 10px;
     font-size: large;
     color: white;
+    transition: 0.3s;
+  }
+  .gy:hover,.yl:hover{
+    background-color: white;
+    color: var(--secondary-color);
   }
   .footer-bottom {
     padding: 20px;
@@ -299,7 +305,7 @@ body {
     .nav-menu ul {
       flex-direction: column;
       position: fixed;
-      gap: 8rem;
+      gap: 5rem;
       background-color: #000000d8;
       width: 100%;
       padding: 10rem;
@@ -334,6 +340,9 @@ body {
       margin-bottom: 20px;
       margin-top: 20px;
     }
+    .fl{
+      margin-top: 20px;
+    }
 }
 @media only screen and (max-width: 600px) {
   .overlay-container{
@@ -358,5 +367,14 @@ body {
   }
   .b2{
     gap: 5px;
+  }
+  .join{
+    margin: -35px;
+  }
+  .footer-bottom{
+    font-size: large;
+  }
+  .b3 h3{
+    font-size: x-large;
   }
 }

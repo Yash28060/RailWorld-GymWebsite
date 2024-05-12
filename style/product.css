@@ -220,7 +220,7 @@
     }
     
   }
-  @media screen and (max-width: 500px){
+  @media only screen and (max-width: 500px){
     .class-img button,.class-img2 button{
         font-size: large;
         padding: 10px;
